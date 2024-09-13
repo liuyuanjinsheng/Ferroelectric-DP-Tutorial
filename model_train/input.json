@@ -55,7 +55,7 @@
         "type": "exp",
         "start_lr": 0.001,
         "stop_lr": 3.51e-08,
-        "decay_steps": 40000
+        "decay_steps": 50
     },
     "loss": {
         "type": "ener",
@@ -68,7 +68,7 @@
     },
     "training": {
         "set_prefix": "set",
-        "stop_batch": 8000000,
+        "stop_batch": 10000,
         "batch_size": "auto",
         "disp_file": "lcurve.out",
         "disp_freq": 1000,
